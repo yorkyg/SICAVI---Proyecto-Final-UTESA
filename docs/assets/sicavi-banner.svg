@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="360" viewBox="0 0 1440 360" role="img" aria-labelledby="title desc">
   <title id="title">SICAVI</title>
-  <desc id="desc">Sistema de inspección y clasificación por visión artificial</desc>
+  <desc id="desc">Sistema de Inspección y Clasificación Automática por Visión</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111c"/>
@@ -32,7 +32,7 @@
   <g font-family="Segoe UI, Arial, sans-serif">
     <text x="76" y="144" fill="#eafaff" font-size="86" font-weight="750" letter-spacing="9">SICAVI</text>
     <rect x="78" y="169" width="655" height="6" rx="3" fill="url(#accent)"/>
-    <text x="78" y="218" fill="#b9d7e8" font-size="25" letter-spacing="2.2">INSPECCIÓN VISUAL Y CONTROL DE PLANTA</text>
+    <text x="78" y="218" fill="#b9d7e8" font-size="22" letter-spacing="1.1">Sistema de Inspección y Clasificación Automática por Visión</text>
     <text x="78" y="267" fill="#7799ae" font-size="19">STM32G071RB · .NET 8 · OpenCV · SQL Server</text>
   </g>
   <g transform="translate(80 304)" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">
@@ -41,4 +41,3 @@
     <rect x="308" width="142" height="32" rx="16" fill="#334155"/><text x="379" y="21" fill="white" text-anchor="middle">TRAZABILIDAD SQL</text>
   </g>
 </svg>
-
