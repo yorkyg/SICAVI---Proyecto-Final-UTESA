@@ -4,19 +4,19 @@
 
 | Función | Pin STM32 | Conector conocido | Tipo | Nivel activo |
 |---|---|---|---|---|
-| LDR | `PA0` | Arduino `A0` | ADC 12 bits | Analógico 0–3.3 V |
+| LDR | `PA0` | STM `A0` | ADC 12 bits | Analógico 0–3.3 V |
 | START local | `PC13` | Pulsador B1 de la placa | Entrada | Bajo |
 | STOP externo | `PC1` | ST Morpho | Entrada | Bajo |
-| Sensor de caja | `PA9` | Arduino `D8` | Entrada | Bajo |
-| Control del motor | `PC7` | Arduino `D9` | Salida | Alto |
-| Relé del expulsor | `PB1` | Arduino `A3` | Salida | Alto |
+| Sensor de caja | `PA9` | STTM `D8` | Entrada | Bajo |
+| Control del motor | `PC7` | STM `D9` | Salida | Alto |
+| Relé del expulsor | `PB1` | STM `A3` | Salida | Alto |
 | LED verde ACEPTADA | `PA5` | `D13`, LED LD4 integrado | Salida | Alto |
-| LED rojo RECHAZADA | `PA6` | Arduino `D12` | Salida | Alto |
-| LED amarillo ESTADO/ALARMA | `PA7` | Arduino `D11` | Salida | Alto/parpadeo |
+| LED rojo RECHAZADA | `PA6` | STM `D12` | Salida | Alto |
+| LED amarillo ESTADO/ALARMA | `PA7` | STM `D11` | Salida | Alto/parpadeo |
 | UART TX | `PA2` | ST-LINK VCP | USART2 | 115200 8-N-1 |
 | UART RX | `PA3` | ST-LINK VCP | USART2 | 115200 8-N-1 |
 
-El sensor de caja se conecta directamente a `D8` de la hilera Arduino digital (`PA9`). Esta entrada usa pull-up e interrupción EXTI por flanco descendente para apagar el motor sin esperar el antirrebote de los botones. `PC1`, usado por STOP, continúa en el encabezado largo **ST Morpho**.
+El sensor de caja se conecta directamente a `D8` de la hilera STM digital (`PA9`). Esta entrada usa pull-up e interrupción EXTI por flanco descendente para apagar el motor sin esperar el antirrebote de los botones. `PC1`, usado por STOP, continúa en el encabezado largo **ST Morpho**.
 
 ## LDR
 
