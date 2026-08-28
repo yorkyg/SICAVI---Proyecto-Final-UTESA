@@ -1,0 +1,44 @@
+# Visual Studio / .NET
+**/.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# STM32CubeIDE y resultados de compilación
+**/Debug/
+**/Release/
+**/*.elf
+**/*.hex
+**/*.bin
+**/*.map
+**/*.list
+**/*.o
+**/*.d
+**/*.su
+**/*.cyclo
+
+# Editores y sistema operativo
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Diagnósticos de desarrollo no curados
+/diagnostico_sensor_camara/
+/tools/diagnostico_sensor_camara/
+*.log
+!docs/evidencias/*.log
+
+# Copias, paquetes y fuentes de referencia ya organizadas
+/SICAVI_STM32_G071RB.rar
+/V2 SICAVI_STM32_G071RB/
+/Mi libreria defaul/
+/report-source.md
+/Requerimientos para la Elaboración de Propuesta de Proyecto.pdf
+
+# Configuraciones locales opcionales
+*.local.json
+*.local.config
+

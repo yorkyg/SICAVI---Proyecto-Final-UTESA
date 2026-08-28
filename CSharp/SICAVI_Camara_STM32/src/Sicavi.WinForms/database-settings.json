@@ -1,0 +1,7 @@
+{
+  "server": ".\\WINCC",
+  "database": "SICAVI",
+  "integratedSecurity": true,
+  "trustServerCertificate": true,
+  "connectTimeoutSeconds": 8
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="white"/>
+  <text x="600" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#111">SICAVI - FIGURAS DE PRUEBA</text>
+  <text x="600" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#555">Imprimir en blanco y negro, recortar y colocar una figura sobre cada caja</text>
+
+  <g transform="translate(70 170)">
+    <rect x="0" y="0" width="310" height="430" rx="12" fill="white" stroke="#777" stroke-width="3" stroke-dasharray="10 8"/>
+    <circle cx="155" cy="190" r="105" fill="#000"/>
+    <text x="155" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold">CÍRCULO</text>
+  </g>
+
+  <g transform="translate(445 170)">
+    <rect x="0" y="0" width="310" height="430" rx="12" fill="white" stroke="#777" stroke-width="3" stroke-dasharray="10 8"/>
+    <rect x="50" y="85" width="210" height="210" fill="#000"/>
+    <text x="155" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold">CUADRADO</text>
+  </g>
+
+  <g transform="translate(820 170)">
+    <rect x="0" y="0" width="310" height="430" rx="12" fill="white" stroke="#777" stroke-width="3" stroke-dasharray="10 8"/>
+    <polygon points="155,70 265,290 45,290" fill="#000"/>
+    <text x="155" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold">TRIÁNGULO</text>
+  </g>
+
+  <text x="600" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#333">Mantener el borde blanco alrededor de la figura y evitar sombras al capturar.</text>
+</svg>

@@ -1,0 +1,49 @@
+{
+  "green": {
+    "hMin": 25,
+    "hMax": 105,
+    "sMin": 30,
+    "sMax": 255,
+    "vMin": 25,
+    "vMax": 255
+  },
+  "redLow": {
+    "hMin": 0,
+    "hMax": 20,
+    "sMin": 30,
+    "sMax": 255,
+    "vMin": 25,
+    "vMax": 255
+  },
+  "redHigh": {
+    "hMin": 150,
+    "hMax": 179,
+    "sMin": 30,
+    "sMax": 255,
+    "vMin": 25,
+    "vMax": 255
+  },
+  "minimumColorPercentage": 2.0,
+  "minimumColorObjectAreaRatio": 0.0025,
+  "minimumShapeAreaPixels": 900.0,
+  "maximumShapeAreaRatio": 0.75,
+  "polygonEpsilonRatio": 0.03,
+  "minimumCircleCircularity": 0.68,
+  "squareAspectRatioMinimum": 0.72,
+  "squareAspectRatioMaximum": 1.28,
+  "shapeMinimumSaturation": 28,
+  "shapeMinimumValue": 25,
+  "maximumAnalysisWidth": 960,
+  "cardWhiteMaximumSaturation": 105,
+  "cardWhiteMinimumValue": 125,
+  "cardMinimumAreaRatio": 0.035,
+  "cardMaximumAreaRatio": 0.55,
+  "cardAspectRatioMinimum": 1.0,
+  "cardAspectRatioMaximum": 1.6,
+  "cardMinimumExtent": 0.62,
+  "cardInsetRatio": 0.075,
+  "roiXRatio": 0.15,
+  "roiYRatio": 0.12,
+  "roiWidthRatio": 0.70,
+  "roiHeightRatio": 0.76
+}
