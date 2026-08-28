@@ -5,7 +5,7 @@
 **Plataforma:** NUCLEO-G071RB  
 **Microcontrolador:** STM32G071RBT6, Cortex-M0+  
 **Firmware:** 1.3.0  
-**Entorno:** STM32CubeIDE 1.17, STM32 HAL y biblioteca GPIO académica  
+**Entorno:** STM32CubeIDE 1.17, STM32 HAL y biblioteca GPIO Propia  
 **Interfaz de supervisión:** USART2 por ST-LINK Virtual COM Port
 
 ---
